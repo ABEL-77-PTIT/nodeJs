@@ -4,10 +4,6 @@ const app = express()
 const port = 3000
 //get ở đây là định nghĩa cái route
 app.get('/', (req, res) => {
-    var a = 1
-    var b= 2
-    var d= 2
-    var c = a + b
   res.send('Hello World!')
 })
 

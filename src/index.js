@@ -17,7 +17,7 @@ app.use(
         }),
 );
 //xử lý dữ liệu js lên
-app.use(express.json());
+      app.use(express.json());
 
 //tạo file ảnh static
 app.use(express.static(path.join(__dirname, 'public')));

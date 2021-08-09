@@ -39,7 +39,7 @@ app.engine(
 // console.log(path.join(__dirname, 'resources/views'));
 
 //route init
-route(app);
+      route(app);
 
 //127.0.0.1 - localhost
 app.listen(port, () => {

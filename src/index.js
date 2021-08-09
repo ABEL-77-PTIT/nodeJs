@@ -24,7 +24,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // console.log('path: ', __dirname)
 
 //http loggers
-app.use(morgan('combined'));
+        app.use(morgan('combined'));
 
 //templates engine
 //định nghĩa handlebars. sử dụng thư viện h andlebars function

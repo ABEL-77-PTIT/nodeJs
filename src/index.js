@@ -12,9 +12,9 @@ const route = require('./routes');
 
 //middleware xử lý dữ liệu từ form summit lên cho ta
 app.use(
-    express.urlencoded({
-        extended: true,
-    }),
+        express.urlencoded({
+            extended: true,
+        }),
 );
 //xử lý dữ liệu js lên
 app.use(express.json());

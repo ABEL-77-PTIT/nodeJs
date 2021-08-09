@@ -29,17 +29,17 @@ app.use(morgan('combined'));
 //templates engine
 //định nghĩa handlebars. sử dụng thư viện h andlebars function
 app.engine(
-    '.hbs',
-    handlebars({
-        extname: '.hbs',
-    }),
+                '.hbs',
+                handlebars({
+                    extname: '.hbs',
+                }),
 );
-              app.set('view engine', '.hbs');
-              app.set('views', path.join(__dirname, 'resources/views'));
+        app.set('view engine', '.hbs');
+app.set('views', path.join(__dirname, 'resources/views'));
 // console.log(path.join(__dirname, 'resources/views'));
 
 //route init
-      route(app);
+route(app);
 
 //127.0.0.1 - localhost
 app.listen(port, () => {

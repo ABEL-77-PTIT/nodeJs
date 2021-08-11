@@ -1,7 +1,14 @@
 @import 'variables';
-h2 {
-    color: $red-color;
+.card-course-item {
+    margin-top: 1rem;
 }
-h1 {
-    color: green;
+.img-avatar {
+    width: 28px;
+    height: 28px;
+    margin-right: 4px;
+    border-radius: 30%;
+}
+.navbar__logo img {
+    height: 32px;
+    border-style: none;
 }
